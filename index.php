@@ -15,6 +15,6 @@ $answer = $cookie->update(time() + 60 * 60);
 
 // GET VALUE
 $cookie_value = $cookie->get_value();
-
+#echo "hey";
 // DESTRUCTION
 $answer = $cookie->stop();
