@@ -1,13 +1,14 @@
 <?php
+namespace PHPcookie;
 
 /**
  * COOKIE SESSION
  */
-class cookie_session
+class CookieSession
 {
-    public $cookie_name = null;
-    public $cookie_value = null;
-    public $time = null;
+    public $cookie_name ;
+    public $cookie_value ;
+    public $time;
 
     // CREATION
     function __construct($name, $value, $time)
@@ -46,7 +47,7 @@ class cookie_session
     }
 
     #READ COOKIE VALUE
-    public function get_value()
+    public function getValue()
     {
         return $this->cookie_value;
         # code...
