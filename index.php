@@ -5,7 +5,7 @@ use PHPcookie\CookieSession;
 require_once './cookie.php';
 
 // MAIN PROGRAMM
-const COOKIE_NAME = "the name of the cookie dude";
+const COOKIE_NAME = "cookie_name";
 const DEFAULT_COOKIE_TIME = 60*60*24*365; # one year duration
 $cookie_value = "give a value to your cookie";
 
